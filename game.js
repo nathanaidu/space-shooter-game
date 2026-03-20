@@ -8,7 +8,7 @@
   var W = 480, H = 640;
 
   // ── Asset paths ─────────────────────────────────────────────
-  var LC       = '../Legacy Collection/Assets/';
+  var LC       = 'Legacy Collection/Assets/';
   var BG_BLUE  = LC + 'Environments/space_background_pack/Blue Version/layered/';
   var BG_SS    = LC + 'Packs/SpaceShooter/Space Shooter files/background/layered/';
   var BG_TDSE  = LC + 'Environments/top-down-space-environment/PNG/layers/';
@@ -32,7 +32,7 @@
   var BOSS_SS  = LC + 'Misc/top-down-boss/PNG/spritesheets/';
   var GROTTO   = LC + 'Misc/Grotto-escape-2-FX/sprites/';
   var WFX      = LC + 'Misc/Warped shooting fx/';
-  var SND      = '../tiny-RPG-forest-files/Demo/assets/sound/';
+  var SND      = 'tiny-RPG-forest-files/Demo/assets/sound/';
 
   var game = new Phaser.Game(W, H, Phaser.AUTO, 'game', null, false, false);
 
